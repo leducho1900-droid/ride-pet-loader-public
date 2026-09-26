@@ -16,7 +16,7 @@
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 
-local API_URL = "https://YOUR-SERVER.com/api/ridepet-v530"
+local API_URL = "https://ride-pet-source-private.onrender.com/api/ridepet-v530"
 local KEY = (getgenv and getgenv().RAP_KEY) or "KEY_HERE"
 
 local function urlencode(v)
